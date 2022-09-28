@@ -1,0 +1,43 @@
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Update Snip: Smarty assign and increment</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div id="" class="modal-body">
+       <div id="object_ajax_reporteri" class="showmessage_heredata"></div>
+         <div class="card">
+            <div class="card-body">
+             <input type="hidden" value="1004" name="id">
+              <div class="form-group">
+                <label for="title"> Title</label>
+                <input type="text" name="title" value="Smarty assign and increment" class="form-control" id="title">
+              </div>
+
+               <div class="form-group">
+                <label for="code_text"> Code Text</label>
+                <textarea name="code_text" class="form-control" id="live_code_text" style="display: none;">{assign var=totalquote value=0}
+{assign var=totalquote value=totalquote+($price.price*price.quantity*1.1)}
+{$totalquote}</textarea><div class="CodeMirror cm-s-monokai"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 3.98438px; left: 32.9688px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 29px; min-width: 658.156px; margin-bottom: -21px; border-right-width: 9px; min-height: 80px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 3.98438px; top: 0px; height: 23.9844px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -28.9844px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">{<span class="cm-variable">assign</span> <span class="cm-keyword">var</span><span class="cm-operator">=</span><span class="cm-variable">totalquote</span> <span class="cm-variable">value</span><span class="cm-operator">=</span><span class="cm-number">0</span>}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -28.9844px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">{<span class="cm-variable">assign</span> <span class="cm-keyword">var</span><span class="cm-operator">=</span><span class="cm-variable">totalquote</span> <span class="cm-variable">value</span><span class="cm-operator">=</span><span class="cm-variable">totalquote</span><span class="cm-operator">+</span>(<span class="cm-variable">$price</span>.<span class="cm-property">price</span><span class="cm-operator">*</span><span class="cm-variable">price</span>.<span class="cm-property">quantity</span><span class="cm-operator">*</span><span class="cm-number">1.1</span>)}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -28.9844px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">{<span class="cm-variable">$totalquote</span>}</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 9px; width: 1px; border-bottom: 0px solid transparent; top: 80px;"></div><div class="CodeMirror-gutters" style="height: 89px; left: 0.015625px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div> </div>
+              </div>
+
+               <div class="row">
+                <div class="col-sm-6">
+              <div class="form-group">
+                <label for="id_project"> Project</label>
+                <select name="id_project" class="form-control" id="id_project"><option value="1" selected=""> Default </option><option value="2"> Dropast </option><option value="3"> OMC Development </option></select>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="id_category"> Category</label>
+                <select name="id_category" class="form-control" id="id_category"><option value="1" selected=""> Default </option><option value="2"> Laravel </option><option value="3"> Logins </option></select>
+              </div>
+            </div>
+          </div>
+              
+            </div>
+            </div>
+            </div>
+
+            <div class="modal-footer">
+              <button data-action="update" data-object="Snip" class="btn_for_object_update_add btn btn-lg btn-primary">Save</button>
+            </div>

@@ -1,0 +1,40 @@
+/*
+
+
+*/
+
+
+.add_snips_box{
+	margin-top: 25px;
+}
+
+.container_main{
+	overflow-y: scroll;
+}
+
+.display_none{
+	display: none !important;
+}
+footer p{
+	margin-top: 25px;
+}
+
+form{
+	margin-top: 20px;
+}
+
+.show_recent_snips{
+	margin-top: 20px;
+}
+.form-group{
+	margin-top: 20px;
+}
+
+#search_show_box{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.card-title{
+	cursor: pointer;
+}
